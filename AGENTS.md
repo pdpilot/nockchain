@@ -49,6 +49,9 @@ line in `SPEC.md`.
 
 ## 3. The two documents you maintain (git-excluded, never pushed)
 
+Create `SECURITY-REVIEW/` if it does not exist (in a fresh checkout it will not). It is working
+paper: never `git add` it, never commit it, never open a PR with it.
+
 - **`SECURITY-REVIEW/SPEC.md`** — components, the invariant each claims, the seams where they
   disagree, and the attack angle per seam.
 - **`SECURITY-REVIEW/LEDGER.md`** — one append-only row per seam, with status and commit.
